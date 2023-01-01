@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:[solution](https://github.com/Kashaan-M/front-end-mentor-challenges/tree/main/product-preview-card-component-main)
+- Live Site URL: [live site](https://kashaan-m.github.io/front-end-mentor-challenges/product-preview-card-component-main/)
 
 ### Built with
 
