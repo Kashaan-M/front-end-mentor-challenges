@@ -40,27 +40,37 @@
     </style>
   </head>
   <body>
-    <section class="product-wrapper">
-      <article class="product-container">
-        <div class="img-container">&nbsp;</div>
-        <div class="product-info">
-          <p class="spaced">PERFUME</p>
-          <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="desc">
-            A floral, solar and voluptuous interpretation composed by Olivier Polge,
-            Perfumer-Creator for the House of CHANEL
-          </p>
-          <h1 class="price">$149.99 <small>$169.99</small></h1>
-          <button class="btn">
-            <i><img src="./images/icon-cart.svg" alt="" /></i>Add to Cart
-          </button>
-        </div>
-      </article>
-    </section>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://kashaan.netlify.app">Kashaan Mahmood</a>.
-    </div>
+    <main>
+      <div class="product-wrapper">
+        <section class="product-container">
+          <article class="product-img">
+            <picture>
+              <source media="(max-width:460px)" srcset="./images/image-product-mobile.jpg" />
+              <img src="./images/image-product-desktop.jpg" class="img-responsive" alt="" />
+            </picture>
+          </article>
+
+          <article class="product-info">
+            <p class="spaced">PERFUME</p>
+            <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+            <p class="desc">
+              A floral, solar and voluptuous interpretation composed by Olivier Polge,
+              Perfumer-Creator for the House of CHANEL
+            </p>
+            <p class="price">
+              $149.99 <del><span class="sr-only">Old Price : </span>$169.99</del>
+            </p>
+            <button class="btn">
+              <i><img src="./images/icon-cart.svg" alt="" /></i>Add to Cart
+            </button>
+          </article>
+        </section>
+      </div>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://kashaan.netlify.app">Kashaan Mahmood</a>.
+      </footer>
+    </main>
   </body>
 </html>
