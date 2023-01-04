@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/Kashaan-M/front-end-mentor-challenges/tree/main/interactive-rating-component)
+- Live Site URL: [live](https://kashaan-m.github.io/front-end-mentor-challenges/interactive-rating-component/)
 
 ### Built with
 
