@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Front-End Portfolio - Interactive Rating Component Challenge" />
+    <meta property="og:title" content="Interactive Rating Component" />
+    <meta
+      property="og:description"
+      content="Front-End Portfolio - Interactive Rating Component Challenge" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <style>
+      .attribution {
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="rating-wrapper">
+        <section class="rating-component">
+          <div class="rating-star"></div>
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All feedback is appreciated to
+            help us improve our offering!
+          </p>
+          <form id="form">
+            <div>
+              <div>
+                <input
+                  type="radio"
+                  class="rating-input"
+                  name="rating"
+                  id="one"
+                  value="1"
+                  required="true" />
+                <label for="one" class="rating-input-label" id="one-label"> 1 </label>
+              </div>
+              <div>
+                <input type="radio" class="rating-input" name="rating" id="two" value="2" />
+                <label for="two" class="rating-input-label" id="two-label"> 2 </label>
+              </div>
+              <div>
+                <input type="radio" class="rating-input" name="rating" id="three" value="3" />
+                <label for="three" class="rating-input-label" id="three-label"> 3 </label>
+              </div>
+              <div>
+                <input type="radio" class="rating-input" name="rating" id="four" value="4" />
+                <label for="four" class="rating-input-label" id="four-label"> 4 </label>
+              </div>
+              <div>
+                <input type="radio" class="rating-input" name="rating" id="five" value="5" />
+                <label for="five" class="rating-input-label" id="five-label"> 5 </label>
+              </div>
+            </div>
+
+            <input type="submit" value="submit" />
+          </form>
+        </section>
+        <footer class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://kashaan.netlify.app">Kashaan Mahmood</a>.
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
